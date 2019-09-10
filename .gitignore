@@ -9,3 +9,6 @@ BubbleTeaWeb/.vs/BubbleTeaWeb/v15/.suo
 BubbleTeaWeb/.vs/BubbleTeaWeb/v15/.suo
 *.ide-wal
 *.ide-shm
+*.pdb
+*.dll
+*.cache
