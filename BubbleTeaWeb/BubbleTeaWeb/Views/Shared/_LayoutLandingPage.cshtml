@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title</title>
+
+
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/css/scss/main.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-lg">
+
+        @* Brand *@
+        <a class="navbar-brand" href="#">Brand</a>
+
+        @* nav bar toggler *@
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        @* navbar content *@
+        <div class="collapse navbar-collapse justify-content-between" id="navContent">
+            <ul class="navbar-nav flex-column flex-lg-row">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    @RenderBody()
+    <footer class="footer">
+        <div class="container-fluid px-0">
+            <p>Test</p>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="~/Content/js/jquery.js"></script>
+    <script src="~/Content/js/bootstrap.js"></script>
+</body>
+</html>
