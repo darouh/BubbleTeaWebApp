@@ -7,3 +7,5 @@ BubbleTeaWeb/.vs/BubbleTeaWeb/v15/Server/sqlite3/storage.ide-shm
 *.dll
 BubbleTeaWeb/.vs/BubbleTeaWeb/v15/.suo
 BubbleTeaWeb/.vs/BubbleTeaWeb/v15/.suo
+*.ide-wal
+*.ide-shm
